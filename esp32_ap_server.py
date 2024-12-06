@@ -44,7 +44,7 @@ void loop(){
             client.println("Connection: close");
             client.println();
             
-            // Send your "Hello World" HTML response
+            // Send your "Goodbye" HTML response
             client.println("<html><head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"></head>");
             client.println("<body><h1>Hello World</h1></body></html>");
             
